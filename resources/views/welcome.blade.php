@@ -36,7 +36,7 @@
   </a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="/folder/index">Gestion</a>
+      <a class="nav-link" href="/folder">Gestion</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="#">Consulta</a>

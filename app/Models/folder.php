@@ -8,4 +8,16 @@ use Illuminate\Database\Eloquent\Model;
 class folder extends Model
 {
     use HasFactory;
+
+    protected $table = "folders";
+
+    protected $fillable = [
+    	"Area",
+    	"Serie",
+    	"Folios",
+    	"Subserie",
+    	"Consecutivos",
+    ];
+
+    protected $guarded = ["id"];
 }
