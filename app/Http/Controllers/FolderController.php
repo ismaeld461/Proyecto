@@ -26,7 +26,8 @@ class FolderController extends Controller
      */
     public function create()
     {
-
+         $folders=Folder::all();
+        return view ('folder.create',compact('folders'));
     }
 
     /**
@@ -51,7 +52,8 @@ class FolderController extends Controller
      */
     public function show(Folder $folder)
     {
-        //
+      $folders=Folder::all();
+        return view ('folder.index',compact('folders'));
     }
 
     /**

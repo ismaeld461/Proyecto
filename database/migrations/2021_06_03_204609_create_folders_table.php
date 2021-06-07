@@ -18,12 +18,16 @@ class CreateFoldersTable extends Migration
              $table->string('Area');
              $table->string('Serie');
              $table->string('Subserie');
-             $table->string('Consecutivos');
+             $table->string('Consecutivo');
              $table->string('Folios');
+             $table->string('n_carpeta');
+             $table->string('n_caja');
+             $table->string('n_estante');
+            $table->string('n_entrepaño');
         });
     }
 
-    /**
+    /** 
      * Reverse the migrations.
      *
      * @return void

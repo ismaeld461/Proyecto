@@ -16,15 +16,21 @@ use App\Http\Controllers\FolderController;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/folder', function () {
+    return view('folder.index');
+});
 
-
-
-    
 
 
 Auth::routes();
 
 Route::resource('folder', FolderController::class)->middleware('auth');
+
+Route::get('/folder', [FolderController::class, 'index'])->name('folder.index');
+
+//Route::get('folder', [FolderController::class, 'store'])->name('folder.store');
+
+Route::get('folder.create', [FolderController::class, 'create'])->name('folder.create');
 
 
 Auth::routes();

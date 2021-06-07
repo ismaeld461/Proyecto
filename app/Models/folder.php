@@ -14,9 +14,13 @@ class folder extends Model
     protected $fillable = [
     	"Area",
     	"Serie",
-    	"Folios",
-    	"Subserie",
-    	"Consecutivos",
+        "Subserie",
+    	"Consecutivo",
+        "Folios",
+        "n_carpeta",
+        "n_caja",
+        "n_estante",
+        "n_entrepaño",
     ];
 
     protected $guarded = ["id"];
