@@ -18,6 +18,7 @@ class folder extends Model
     	"Consecutivo",
         "Folios",
         "n_carpeta",
+        "Vigencia",
         "n_caja",
         "n_estante",
         "n_entrepaño",

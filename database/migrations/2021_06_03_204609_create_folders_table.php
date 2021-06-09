@@ -21,6 +21,7 @@ class CreateFoldersTable extends Migration
              $table->string('Consecutivo');
              $table->string('Folios');
              $table->string('n_carpeta');
+             $table->string('Vigencia');
              $table->string('n_caja');
              $table->string('n_estante');
             $table->string('n_entrepaño');

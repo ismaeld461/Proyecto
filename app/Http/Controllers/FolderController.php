@@ -12,7 +12,7 @@ class FolderController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index (Request $request)
     {
         //
         $folders=Folder::all();
@@ -28,6 +28,7 @@ class FolderController extends Controller
     {
          $folders=Folder::all();
         return view ('folder.create',compact('folders'));
+
     }
 
     /**
@@ -52,8 +53,8 @@ class FolderController extends Controller
      */
     public function show(Folder $folder)
     {
-      $folders=Folder::all();
-        return view ('folder.index',compact('folders'));
+       $folders=Folder::all();
+        return view ('folder.show',compact('folders'));
     }
 
     /**
