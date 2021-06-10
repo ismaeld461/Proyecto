@@ -23,6 +23,10 @@
     <div id="app">
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div>
+        <img src="{{ asset('images/logo.png')}}" class="logo" loading="lazy">    
+        </div>
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('Digidata', 'Digidata') }}
                 </a>
