@@ -54,17 +54,9 @@
   <div class="card-body">
 <nav class="navbar navbar-light float-right">
   <form class="form-inline">
-    
+    Buscar Carpeta
     <div></div>
 
-    <div class=" container">
-        <input name="buscarpor" class="form-control mr-sm-2 " type="search" placeholder="Buscar por area" aria-label="Search">
-        <div class="row mt-4 col-6">
-            <button class="btn btn-outline-primary my-2 my-sm-0 mt-4" type="submit">Buscar</button>
-            
-        </div>
-            
-    </div>
 
   </form>
 </nav>
